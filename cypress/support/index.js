@@ -18,7 +18,3 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-module.exports = (on, config) => {
-    on("file:preprocessor", cypressTypeScriptPreprocessor);
-    // on('task', {downloadFile});
-};
